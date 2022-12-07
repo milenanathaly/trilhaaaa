@@ -1,0 +1,15 @@
+body{
+    background-color:darksalmon;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    background-color:darkred;
+    color:darksalmon;
+    text-align:center;
+}
+h2{ /* tbm da: h2, h3{color:...}*/
+    color:darkred;
+}
+h3{
+    color:rgb(153, 26, 26);
+}

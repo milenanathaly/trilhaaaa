@@ -1,0 +1,103 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*margin:50px;utilizando margem como shorthand*/
+    margin-top:50px;
+    margin-right:100px;
+    margin-left:90px;
+    margin-bottom:200px;
+    border-style:double;
+    border-width: 10px;
+    border-color:#121ecb;;
+    /*padding:20px; shorthand*/
+    /*padding-top:0px;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:40px;*/
+    padding: 0px 30px 40px; /*atalho para definir respectivamente preenchimento com 0px acima, 30px dos lados e 40px abaixo */
+    
+}
+
+h1{
+    background-color:rgb(145, 166, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    border-style: double;
+    border-color: black;
+}
+
+h2{
+    color:rgb(112, 134, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin:10px;
+    background-color: white;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    
+}
+
+ul{
+    list-style:circle;
+}
+
+span{
+    background-color: rgb(183, 226, 255);
+    color:black;
+    display:block;
+}
+
+p{
+    background-color:rgb(183, 226, 255);
+    color:black;
+    display:inline;/*Altera a propriedade de block-level para inline*/
+}
+
+div{
+    background-color:rgb(255, 248, 168) ;
+    border:solid;
+    margin:10px;
+    padding:10px;
+    
+}
+ .box1{
+    background-color: rgb(35, 90, 240);
+    width:400px;
+    height:40px;
+    position:static;
+    top:500px;
+    left:500px;
+ }
+ .box2{
+    background-color: rgb(38, 157, 231);
+    width:400px;
+    height:40px;
+    position:relative;
+    top:10px;
+    left:500px;
+ }
+ .box3{
+    background-color: rgb(58, 198, 245);
+    width:400px;
+    height:40px;
+    position:absolute;
+    top:1100px;
+    right:500px;
+ }
+ .box4{
+    background-color: rgb(82, 219, 226);
+    width:400px;
+    height:40px;
+    position:fixed;
+    top:0px;
+    right:0px;
+ }
+ .box5{
+    background-color: aquamarine;
+    width:400px;
+    height:40px;
+    position:sticky;
+    bottom:200px;
+    left:150px;
+ }
